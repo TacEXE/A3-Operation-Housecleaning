@@ -1,0 +1,64 @@
+author = "Mada";
+loadScreen = "texture\mission.paa"; 
+onLoadMission= "This is a ZEUS coop sandbox scenario";
+OnLoadIntro = "";
+OnLoadIntroTime = false;
+OnLoadMissionTime = false;
+onLoadName = "Housecleaning";
+
+// https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
+forceRotorLibSimulation = 2;
+
+// https://community.bistudio.com/wiki/Description.ext#disableChannels
+// disableChannels[] = {0, 2};
+
+class Header
+{
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 4;
+};
+
+// Show HUD
+// showHUD = 0;
+
+// Respawn settings
+// 0/NONE, 1/BIRD, 2/INSTANT, 3/BASE or 4/GROUP
+respawn = "BASE";
+respawnDelay = 10;
+respawnDialog = 0;
+respawnOnStart = 0;
+respawnButton = 1;
+
+// Automatically take a free slot in lobby
+joinUnassigned = 0;
+
+// Removes all playable units which do not have a human player.
+disabledAI = true;
+
+// Disable dropping items while swimming
+enableItemsDropping = 0;
+
+// Show mission briefing
+briefing = 0;
+
+// Defines if the debriefing is shown or not at the end of the mission. 
+debriefing = 0;
+
+// https://community.bistudio.com/wiki/Description.ext#corpseManagerMode
+corpseManagerMode = 1;
+corpseLimit = 20;
+corpseRemovalMinTime = 1800;
+corpseRemovalMaxTime = 3600;
+
+// https://community.bistudio.com/wiki/Description.ext#wreckManagerMode
+wreckManagerMode = 1;
+wreckLimit = 2;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+
+// Allows access to the Debug Console outside of the editor during normal gameplay. 
+// 0 = Default behavior, available only in editor
+// 1 = Available in SP and for hosts / logged in admins
+// 2 = Available for everyone
+enableDebugConsole = 1; // 2 = dangerous in MP
