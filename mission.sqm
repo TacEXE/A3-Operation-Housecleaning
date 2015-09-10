@@ -34,7 +34,7 @@ class Mission
 	randomSeed=3717783;
 	class Intel
 	{
-		briefingName="Operation Housecleaning 0.1.01";
+		briefingName="Operation Housecleaning 0.1.02";
 		overviewText="An ongoing scenario on Stratis island";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
