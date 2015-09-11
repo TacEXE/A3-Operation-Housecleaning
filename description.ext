@@ -4,7 +4,7 @@ onLoadMission= "This is a ZEUS coop sandbox scenario";
 OnLoadIntro = "";
 OnLoadIntroTime = false;
 OnLoadMissionTime = false;
-onLoadName = "Housecleaning";
+onLoadName = "Housecleaning 0.1.04";
 
 // https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
 forceRotorLibSimulation = 2;
