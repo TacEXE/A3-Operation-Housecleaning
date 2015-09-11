@@ -34,7 +34,7 @@ class Mission
 	randomSeed=3717783;
 	class Intel
 	{
-		briefingName="Operation Housecleaning 0.1.02";
+		briefingName="Operation Housecleaning 0.1.03";
 		overviewText="An ongoing scenario on Stratis island";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
@@ -63,7 +63,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2980.6089,171.39999,1874.3628};
+					position[]={3290.1736,229.19073,2938.0684};
 					class args
 					{
 						items=4;
@@ -112,7 +112,7 @@ class Mission
 				items=9;
 				class Item0
 				{
-					position[]={2980.6167,171.39999,1867.8483};
+					position[]={3290.1814,229.17999,2931.5537};
 					azimut=-2.3065186;
 					special="NONE";
 					id=1;
@@ -129,7 +129,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={2980.6831,171.39999,1866.5724};
+					position[]={3290.2478,229.17999,2930.2778};
 					azimut=-2.3065186;
 					special="NONE";
 					id=2;
@@ -144,7 +144,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={2982.0029,171.39999,1866.5492};
+					position[]={3291.5676,229.17999,2930.2549};
 					azimut=-2.3065186;
 					special="NONE";
 					id=3;
@@ -159,7 +159,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={2983.2373,171.39999,1866.6003};
+					position[]={3292.802,229.25017,2930.3059};
 					azimut=-2.3065186;
 					special="NONE";
 					id=4;
@@ -174,7 +174,7 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={2984.4521,171.39774,1866.6274};
+					position[]={3294.0168,229.3521,2930.333};
 					azimut=-2.3065186;
 					special="NONE";
 					id=5;
@@ -189,7 +189,7 @@ class Mission
 				};
 				class Item5
 				{
-					position[]={2980.7625,171.39999,1865.2203};
+					position[]={3290.3271,229.17999,2928.9258};
 					azimut=-2.3065186;
 					special="NONE";
 					id=6;
@@ -204,7 +204,7 @@ class Mission
 				};
 				class Item6
 				{
-					position[]={2982.0979,171.39999,1865.2748};
+					position[]={3291.6626,229.17999,2928.9805};
 					azimut=-2.3065186;
 					special="NONE";
 					id=7;
@@ -219,7 +219,7 @@ class Mission
 				};
 				class Item7
 				{
-					position[]={2983.3906,171.39999,1865.2316};
+					position[]={3292.9553,229.26358,2928.937};
 					azimut=-2.3065186;
 					special="NONE";
 					id=8;
@@ -234,7 +234,7 @@ class Mission
 				};
 				class Item8
 				{
-					position[]={2984.6497,171.39674,1865.2528};
+					position[]={3294.2144,229.37375,2928.9585};
 					azimut=-2.3065186;
 					special="NONE";
 					id=9;
@@ -292,7 +292,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2984.6787,171.3983,1874.3818};
+					position[]={3294.2434,229.09216,2938.0874};
 					class args
 					{
 						items=2;
@@ -328,7 +328,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2976.8828,171.39999,1874.4102};
+					position[]={3286.4475,229.18703,2938.1157};
 					id=12;
 					side="LOGIC";
 					vehicle="ModuleMPTypeGameMaster_F";
@@ -343,7 +343,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=20;
+		items=31;
 		class Item0
 		{
 			position[]={2977.7544,171.37659,1886.5366};
@@ -523,34 +523,149 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			skill=0.60000002;
 		};
+		class Item20
+		{
+			position[]={3283.0474,229.17999,2939.2998};
+			id=33;
+			side="EMPTY";
+			vehicle="Box_IND_AmmoVeh_F";
+			skill=0.60000002;
+			init="this addAction[""<t color='#ffcc00'>Arsenal</t>"", {[""Open"",true] spawn BIS_fnc_arsenal}];";
+		};
+		class Item21
+		{
+			position[]={3279.8984,229.17973,2940.1968};
+			id=34;
+			side="EMPTY";
+			vehicle="Flag_US_F";
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={3352.1875,234.49739,2909.7393};
+			azimut=179.79134;
+			id=35;
+			side="EMPTY";
+			vehicle="B_Heli_Light_01_F";
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={3299.8059,228.9655,2941.6289};
+			azimut=-137.28168;
+			id=36;
+			side="EMPTY";
+			vehicle="B_Quadbike_01_F";
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={3298.301,229.05272,2943.2019};
+			azimut=-137.28168;
+			id=37;
+			side="EMPTY";
+			vehicle="B_Quadbike_01_F";
+			skill=0.60000002;
+		};
+		class Item25
+		{
+			position[]={3296.8464,229.10197,2944.6953};
+			azimut=-137.28168;
+			id=38;
+			side="EMPTY";
+			vehicle="B_Quadbike_01_F";
+			skill=0.60000002;
+		};
+		class Item26
+		{
+			position[]={3295.4329,229.10313,2946.2034};
+			azimut=-137.28168;
+			id=39;
+			side="EMPTY";
+			vehicle="B_Quadbike_01_F";
+			skill=0.60000002;
+		};
+		class Item27
+		{
+			position[]={3293.886,229.1001,2947.7295};
+			azimut=-137.28168;
+			id=40;
+			side="EMPTY";
+			vehicle="B_Quadbike_01_F";
+			skill=0.60000002;
+		};
+		class Item28
+		{
+			position[]={3292.3767,229.09044,2949.3044};
+			azimut=-137.28168;
+			id=41;
+			side="EMPTY";
+			vehicle="B_Quadbike_01_F";
+			skill=0.60000002;
+		};
+		class Item29
+		{
+			position[]={3281.8494,229.18672,2927.4607};
+			azimut=62.003017;
+			id=42;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			skill=0.60000002;
+		};
+		class Item30
+		{
+			position[]={3279.6421,229.18332,2931.0313};
+			azimut=62.003017;
+			id=43;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
-		items=3;
+		items=5;
 		class Item0
 		{
-			position[]={2982.4963,171.39999,1871.1011};
+			position[]={3292.8933,229.19223,2922.2642};
 			name="respawn_west";
 			type="Empty";
 		};
 		class Item1
 		{
-			position[]={3020.312,166.66798,1912.0664};
-			name="usFlag_01";
+			position[]={3072.2014,144.89137,1897.2407};
+			name="usFlag_1";
 			type="flag_USA";
 		};
 		class Item2
 		{
-			position[]={2660.4441,15.803141,1255.2798};
+			position[]={2987.978,171.38676,1866.6826};
 			name="areaBlue";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorWEST";
-			fillName="Border";
-			a=900;
-			b=500;
-			angle=-59.4916;
+			fillName="SolidBorder";
+			a=50;
+			b=50;
 			drawBorder=1;
+		};
+		class Item3
+		{
+			position[]={3292.7031,229.23273,2934.0386};
+			name="areaBlue_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorWEST";
+			fillName="SolidBorder";
+			a=50;
+			b=50;
+			drawBorder=1;
+		};
+		class Item4
+		{
+			position[]={3387.8975,232.07672,2933.7461};
+			name="usFlag_2";
+			type="flag_USA";
 		};
 	};
 };
